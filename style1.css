@@ -1,0 +1,44 @@
+body {background-color: rgb(0,0,0); }
+
+.main {
+    background-color: rgba(112, 207, 231, 0.432);
+    border: solid 0px rgb(255, 255, 255);
+    margin: 0px 100px 0px 100px;
+    padding: 0px 0px 1000px 0px;
+}
+
+.topnav {
+    background-color: rgb(78, 78, 78);
+    overflow: hidden;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+  
+.topnav a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    padding-left: 57px;
+    padding-right: 57px;
+}
+  
+.topnav a:hover {
+    background-color: rgb(88, 178, 238);
+    color: white;
+    color: black;
+}
+  
+.topnav a:active {
+    background-color: rgb(84, 154, 201);
+    color: white;
+}
+
+.titolo1 {
+    border: solid 0px rgb(0,0,0);
+    margin-top: 2px;
+    font-size: large;
+}
