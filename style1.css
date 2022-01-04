@@ -59,7 +59,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.sinistra {
+.primo {
     margin-left: 100px;
     margin-top: 30px;
     border: 2px solid rgb(190, 190, 190);
@@ -69,8 +69,30 @@ figcaption {
     text-align: left;
     margin-left: 70px;
 }
-.margine {
+.margineprimo {
     margin-left: 190px;
+    color: rgb(102, 101, 101)
 }
-img {
+.secondo {
+    border: 2px solid rgb(190, 190, 190);
+    margin-top: 30px;
+    margin-left: 300px;
+}
+.column {
+    float: left;
+    width: 15%;
+    padding: 5px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .imgContainer{
+    display:inline-block;
+    float:left;
+}
+.centrato{
+    text-align:center;
+    
 }
