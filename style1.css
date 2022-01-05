@@ -57,42 +57,42 @@ body {background-color: rgb(245, 245, 245); }
 h1 {
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: bold
+    ;
 }
-.primo {
-    margin-left: 100px;
-    margin-top: 30px;
-    border: 2px solid rgb(190, 190, 190);
-}
-figcaption {
-    padding: 5px;
-    text-align: left;
-    margin-left: 70px;
-}
-.margineprimo {
-    margin-left: 190px;
-    color: rgb(102, 101, 101)
-}
-.secondo {
-    border: 2px solid rgb(190, 190, 190);
-    margin-top: 30px;
-    margin-left: 300px;
-}
-.column {
+.content_img{
+    position: relative;
+    width: 230px;
+    height: 230px;
     float: left;
-    width: 15%;
-    padding: 5px;
-  }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .imgContainer{
-    display:inline-block;
-    float:left;
-}
-.centrato{
-    text-align:center;
-    
+    margin-left: 100px;
+    border: solid 2px rgb(214, 214, 214);
+   }
+   
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+.content_img:hover{
+    cursor: pointer;
+   }
+   
+.content_img:hover div{
+    width: 200px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+   }
+span {
+    color: red
 }
